@@ -10,7 +10,8 @@
       "prefix": "app",
       "schematics": {
         "@schematics/angular:component": {
-          "styleext": "sass"
+          "styleext": "sass",
+          "spec": false
         }
       },
       "architect": {
@@ -119,7 +120,7 @@
     "bwm-ng-e2e": {
       "root": "e2e/",
       "projectType": "application",
-      "prefix": "",
+      "prefix": "bwm",
       "architect": {
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
